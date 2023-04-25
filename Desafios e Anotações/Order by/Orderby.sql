@@ -1,0 +1,12 @@
+ODER BY
+SINTAXE:
+SELECT coluna1,coluna2
+FROM tabela
+ORDER BY coluna1 asc/desc
+
+SERVE PARA SELECIONAR AS INFORMAÇÕES DE FORMA CRESCENTE OU DECRESCENTE 
+
+EXEMPLO:
+SELECT FirstName, LastName
+FROM person.Person
+ORDER BY FirstName asc, LastName desc

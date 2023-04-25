@@ -1,0 +1,16 @@
+BETWEEN
+É USADO PRA ENCONTRAR UM VALOR ENTRE O VALOR MIN E O VALOR MAX.
+SELECT *
+FROM Production.Product
+WHERE ListPrice between 1000 and 1500;
+
+O OPOSTO SERIA:
+SELECT *
+FROM Production.Product
+WHERE ListPrice NOT between 1000 and 1500;
+
+PARA DATAS SERIA:
+SELECT *
+FROM HumanResources.Employee
+WHERE HireDate between '2009/01/01' and '2010/01/01'
+ORDER BY HireDate
